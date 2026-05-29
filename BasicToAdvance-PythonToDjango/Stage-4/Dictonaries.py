@@ -66,7 +66,7 @@ n = int(input("Enter the range for odd numbers: "))
 odd_num = [i for i in range (1 , n + 1) if i % 2 != 0]
 print("Odd Numbers: ",odd_num)
 
-print("\nCovert to Uppercase using List Comprehension: ")
+print("\nConvert to Uppercase using List Comprehension: ")
 uppr_lst = ['hello', 'world', 'python', 'programming']
 uppr = [uppr_name.upper() for uppr_name in uppr_lst]
 print("Uppercase List: ",uppr)
